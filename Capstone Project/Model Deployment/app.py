@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # === 1. Load Trained Model ===
 @st.cache_resource
 def load_cnn_lstm_model():
-    return load_model("best_model_subject_wise.keras")
+    return load_model("model/best_model_subject_wise.keras")
 
 model = load_cnn_lstm_model()
 
